@@ -1,0 +1,62 @@
+*background:  #212121
+*foreground:  #E8EAEC
+
+*color0:  #525252
+*color1:  #EF9A89
+*color2:  #ABD37C
+*color3:  #EEC87C
+*color4:  #7CA2EE
+*color5:  #9197BB
+*color6:  #74CADB
+*color7:  #E8E5DC
+*color8:  #707070 
+*color9:  #EF9A89
+*color10: #ABD37C
+*color11: #EEC87C
+*color12: #7CA2EE
+*color13: #9197BB
+*color14: #74CADB
+*color15: #E8E5DC
+
+URxvt.intensityStyles: False 
+URxvt*transparent: False
+!!URxvt*shading: 20
+
+!!Key bingings
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+URxvt.scrollBar: false
+
+!!font
+URxvt*font:     xft:Droid Sans Mono:medium:pixelsize=10
+URxvt*fontbold:     xft:Droid Sans Mono:medium:pixelsize=10
+xterm*faceName: xft:Droid Sans Mono:medium:pixelsize=10
+
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+
+URxvt.borderColor: #181818 
+URxvt.internalBorder: 4
+URxvt.urlLauncher: chromium
+URxvt.letterSpace: -2
+
+!!Rofi
+
+!rofi.line: 3
+!rofi.eh: 2
+!rofi.width: 30
+!rofi.padding: 40
+!rofi.opacity: 90
+!rofi.bw: 0
+! Color scheme for normal row
+rofi.color-normal:                   "#073642, #93a1a1, #073642, #073642, #48cfc5"
+! Color scheme for urgent row
+rofi.color-urgent:                   "#073642, #fc0000, #073642, #073642, #fc0000"
+! Color scheme for active row
+rofi.color-active:                   "#073642, #93a1a1, #073642, #073642, #48cfc5"
+! Color scheme window
+rofi.color-window:                   "#073642, #002b36, #073642"
+! Separator style (none, dash, solid)
+rofi.separator-style:                none
+
